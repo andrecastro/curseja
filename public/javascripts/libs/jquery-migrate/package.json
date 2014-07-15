@@ -1,0 +1,9 @@
+{
+    "name": "jquery-migrate",
+    "title": "jQuery Migrate",
+    "version": "1.0",
+
+    "jam": {
+        "main": "jquery.migrate.js"
+    }
+}

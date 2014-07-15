@@ -1,0 +1,28 @@
+{
+  "name": "backbone.routemanager",
+  "version": "0.1.0",
+  "description": "Better route management for Backbone.js projects",
+  "main": "backbone.routemanager.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tbranyen/backbone.routemanager.git"
+  },
+  "keywords": [
+    "backbone"
+  ],
+  "author": "Tim Branyen (@tbranyen)",
+  "license": "MIT",
+  "jam": {
+    "include": ["backbone.routemanager.js"],
+    "shim": {
+      "exports": "Backbone.RouteManager",
+      "deps": ["backbone", "jquery", "lodash"]
+    }
+  }
+}

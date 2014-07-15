@@ -1,0 +1,34 @@
+{
+  "name": "bootstrap-core",
+  "version": "3.0.1",
+  "description": "Bootstrap is a sleek, intuitive, and powerful front-end framework for faster and easier web development",
+  "homepage": "http://twitter.github.com/bootstrap/",
+  "keywords": [
+    "bootstrap",
+    "css",
+    "framework"
+  ],
+  "jam": {
+    "main": "js/bootstrap.js",
+    "dependencies": {
+      "jquery": ">1.6"
+    },
+    "shim": {
+      "deps": ["jquery"]
+    }
+  },
+  "bugs": {
+    "web": "https://github.com/twitter/bootstrap/issues" 
+  },
+  "licenses": [{
+      "type": "Apache",
+      "url": "https://raw.github.com/twitter/bootstrap/master/LICENSE"
+    }
+  ],
+  "repositories": [{
+      "type": "git", 
+      "url": "https://github.com/twitter/bootstrap.git"
+    }
+  ],
+  "github": "https://github.com/twitter/bootstrap"
+}

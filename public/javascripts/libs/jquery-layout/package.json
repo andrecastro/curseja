@@ -1,0 +1,13 @@
+{
+    "name": "jquery-layout",
+    "title": "jQuery Layout",
+    "version": "1.0",
+
+    "jam": {
+        "dependencies": {
+            "jquery": ">=1.6.0",
+            "jquery-ui": ">=1.9.1"
+        },
+        "main": "jquery.layout.js"
+    }
+}

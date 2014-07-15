@@ -1,0 +1,37 @@
+{
+    "name": "application-name",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+        "start": "node www",
+        "debug": "node --debug-brk www"
+    },
+    "dependencies": {
+        "express": "~3.4.8",
+        "static-favicon": "~1.0.0",
+        "morgan": "~1.0.0",
+        "cookie-parser": "~1.0.1",
+        "body-parser": "~1.0.0",
+        "debug": "~0.7.4",
+        "ejs": "~0.8.5",
+        "jamjs": "",
+        "mongoose": "3.8.8",
+        "socket.io": "0.9.16",
+        "webrtc.io": "0.0.4"
+    },
+
+    "jam": {
+        "packageDir": "public/javascripts/libs",
+        "baseUrl": "public",
+        "dependencies": {
+            "jquery": "1.9.1",
+            "backbone": "1.0.0",
+            "bootstrap-core": "3.0.1",
+            "text": "2.0.2",
+            "jquery-ui": "1.9.1",
+            "text": "2.0.2",
+            "socket.io": "0.9.6-jam.1",
+            "backbone.routemanager": "0.1.0"
+        }
+    }
+}

@@ -1,0 +1,54 @@
+<html>
+
+<head>
+    <title>CurseJa</title>
+
+    <link rel='stylesheet' href='/javascripts/libs/bootstrap-core/css/bootstrap.min.css'/>
+    <link rel='stylesheet' href='/javascripts/libs/bootstrap-core/css/bootstrap-theme.min.css'/>
+    <link rel='stylesheet' href='/javascripts/libs/jquery-ui/dist/jquery-ui.min.css'/>
+    <link rel='stylesheet' href='/javascripts/libs/jquery-layout/jquery.layout.css'/>
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
+</head>
+
+<body>
+
+<div class="ui-layout-center" id="center-container">
+    <div class="ui-layout-north">
+        <div class="fl">
+            <!--<a class="btn" href="#share">Video</a>-->
+            <!--<a class="btn" href="#materials">Materiais</a>-->
+        </div>
+
+        <div class="fr">
+            <a class="logoff mini-btn"><i class="ui-icon-power"></i></a>
+        </div>
+    </div>
+
+    <div class="ui-layout-center" id="center-main">
+
+        <div id="center-main-container">
+            <video id="client-video"></video>
+            <audio id="audio" controls="true"></audio>
+        </div>
+    </div>
+</div>
+
+<div class="ui-layout-west" id="west-container">
+    <div class="ui-layout-north">
+        <h4 class="chat-title">Chat</h4>
+
+        <div class="chat-icon"></div>
+    </div>
+
+    <div class="ui-layout-center" id="west-main-container"></div>
+
+    <div class="ui-layout-south" id="west-south-container">
+        <textarea id="chatMessage" placeholder="Digite aqui sua mensagem..."></textarea>
+        <button id="sendMessage">Enviar</button>
+    </div>
+</div>
+
+
+<script data-main="/javascripts/initClient.js" src="/javascripts/libs/require.js"></script>
+</body>
+</html>

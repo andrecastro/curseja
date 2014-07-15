@@ -1,0 +1,120 @@
+* {
+    font-family: helvetica;
+    font-size: 12px;
+    color: #ffffff;
+}
+
+#toolbar {
+    height: 40px;
+    padding: 5px;
+}
+
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.mini-btn {
+    height: 28px;
+    width: 30px;
+}
+
+button span {
+    color: #000000;
+}
+
+a span {
+    color: #000000;
+}
+
+textarea {
+    background-color: #1a1c1f;
+}
+
+.ui-layout-pane {
+    background-color: #1a1c1f;
+}
+
+video {
+    margin: 0px;
+    width: 99%;
+    height: 95%;
+}
+
+audio {
+    width: 99%;
+    margin: 2px;
+}
+
+#center-main {
+    padding: 2px;
+    height: 100%;
+    width: 100%;
+}
+
+#center-main-container {
+    padding: 0px;
+    height: 90%;
+    width: 100%;
+    margin-top: 10px;
+}
+
+#west-main-container {
+    padding: 0px;
+}
+
+#west-south-container {
+    padding: 0px;
+}
+
+#chatMessage {
+    width: 100%;
+    height: 85%;
+    margin: 0px;
+    resize: none;
+    font-size: 14px;
+}
+
+#sendMessage {
+    margin: 4px 1px 2px 1px;
+    width: 99%;
+}
+
+.message {
+    border-bottom: 1px solid;
+    padding: 5px
+}
+
+.message label {
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.message .text {
+    margin-top: 2px;
+    font-size: 12px;
+}
+
+#west-container .ui-layout-north {
+    font-size: 16px;
+    text-align: center;
+}
+
+#west-container .ui-layout-north {
+    padding: 5px;
+}
+
+.chat-icon {
+    width: 24px;
+    height: 19px;
+    display: inline-block;
+    background: no-repeat url("../images/chat.png");
+}
+
+.chat-title {
+    display: inline-block;
+}
